@@ -7,7 +7,6 @@ class App extends Component {
   render() {
     return(
       <div>
-        <h3>My Todo</h3>
         <Route path='/' component={TodoList} exact={true} />
         <Route path='/todos/add' component={TodoForm} />
       </div>
